@@ -36,7 +36,7 @@ body {
 header {
   text-align: center;
   height: 400px;
-  background-color: #4a87ee;
+  background-color: #487dda;
   color: white;
 }
 
@@ -68,7 +68,7 @@ h2 {
 
 section {
   color: white;
-  background-color: #4a87ee;
+  background-color: #487dda;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];

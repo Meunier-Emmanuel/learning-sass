@@ -1,3 +1,5 @@
+$bluue:rgb(72, 125, 218);
+
 * {
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,7 +35,7 @@ body {
 header {
 	text-align: center;
 	height: 400px;
-	background-color: rgb(74, 135, 238);
+	background-color: $bluue;
 	color: white;
 	.ban {
 		width: 350px;
@@ -63,7 +65,7 @@ h2 {
 }
 section {
 	color: white;
-	background-color: rgb(74, 135, 238);
+	background-color:$bluue;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	padding-top: 20px;
@@ -103,7 +105,7 @@ aside {
 	}
 	li {
 		display: inline-block;
-		background-color: rgb(72, 125, 218);
+		background-color: $bluue;
 		width: 150px;
 		height: 40px;
 		border-radius: 5px;
