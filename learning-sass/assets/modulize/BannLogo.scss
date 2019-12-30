@@ -1,0 +1,29 @@
+//footer logo
+aside {
+	display: inline-block;
+	background-color: rgb(228, 228, 228);
+	width: 100%;
+	text-align: center;
+	word-wrap: wrap;
+	img {
+		width: 150px;
+		margin: 20px;
+	}
+}
+.menu2 {
+	ul {
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		background-color: rgb(72, 125, 218);
+		width: 150px;
+		height: 40px;
+		border-radius: 5px;
+		color: white;
+		line-height: 40px;
+		&:last-child {
+			background-color: rgb(226, 151, 11);
+		}
+	}
+}

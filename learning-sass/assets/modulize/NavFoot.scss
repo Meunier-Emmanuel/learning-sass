@@ -1,0 +1,22 @@
+//menu footer
+.menu3 {
+	height: 40px;
+	background-color: black;
+	margin-bottom: 0px;
+	li {
+		display: inline-block;
+		color: blanchedalmond;
+		margin-top: 15px;
+		border-left: dotted 2px;
+		padding-left: 25px;
+		margin-right: 25px;
+		&:first-child {
+			border: none;
+		}
+		&:last-child {
+			position: absolute;
+			right: 30px;
+			border: none;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+aside {
+  display: inline-block;
+  background-color: #e4e4e4;
+  width: 100%;
+  text-align: center;
+  word-wrap: wrap;
+}
+
+aside img {
+  width: 150px;
+  margin: 20px;
+}
+
+.menu2 ul {
+  text-align: center;
+}
+
+.menu2 li {
+  display: inline-block;
+  background-color: #487dda;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  line-height: 40px;
+}
+
+.menu2 li:last-child {
+  background-color: #e2970b;
+}
+/*# sourceMappingURL=BannLogo.css.map */

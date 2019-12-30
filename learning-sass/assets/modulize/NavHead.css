@@ -1,0 +1,27 @@
+.menu {
+  height: 40px;
+  background-color: black;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.menu li {
+  margin-left: 20px;
+  display: inline;
+  color: blanchedalmond;
+  line-height: 40px;
+  -webkit-text-size-adjust: 10px;
+     -moz-text-size-adjust: 10px;
+      -ms-text-size-adjust: 10px;
+          text-size-adjust: 10px;
+}
+
+.menu li:nth-child(1) {
+  margin-left: 80px;
+}
+
+.menu li:last-child {
+  position: absolute;
+  right: 30px;
+}
+/*# sourceMappingURL=NavHead.css.map */
