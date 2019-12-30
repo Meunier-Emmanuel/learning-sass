@@ -9,26 +9,7 @@ body {
 
 
 //menu horizontal avec un login à droite
-.menu {
-	height: 40px;
-	background-color: black;
-	margin-bottom: 0px;
-	text-align: left;
-	li {
-		margin-left: 20px;
-		display: inline;
-		color: blanchedalmond;
-		line-height: 40px;
-		text-size-adjust: 10px;
-		&:nth-child(1) {
-			margin-left: 80px;
-		}
-		&:last-child {
-			position: absolute;
-			right: 30px;
-		}
-	}
-}
+@import '../modulize/NavHead.scss';
 
 
 //Bannière avec dessins à gauche , titre et button center
@@ -88,17 +69,9 @@ h3 {
 
 
 //footer logo
-aside {
-	display: inline-block;
-	background-color: rgb(228, 228, 228);
-	width: 100%;
-	text-align: center;
-	word-wrap: wrap;
-	img {
-		width: 150px;
-		margin: 20px;
-	}
-}
+@import '../modulize/BannLogo.scss';
+
+
 .menu2 {
 	ul {
 		text-align: center;
@@ -119,24 +92,4 @@ aside {
 
 
 //menu footer
-.menu3 {
-	height: 40px;
-	background-color: black;
-	margin-bottom: 0px;
-	li {
-		display: inline-block;
-		color: blanchedalmond;
-		margin-top: 15px;
-		border-left: dotted 2px;
-		padding-left: 25px;
-		margin-right: 25px;
-		&:first-child {
-			border: none;
-		}
-		&:last-child {
-			position: absolute;
-			right: 30px;
-			border: none;
-		}
-	}
-}
+@import '../modulize/NavFoot.scss'

@@ -125,6 +125,24 @@ aside img {
   background-color: #e2970b;
 }
 
+.menu2 ul {
+  text-align: center;
+}
+
+.menu2 li {
+  display: inline-block;
+  background-color: #487dda;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  line-height: 40px;
+}
+
+.menu2 li:last-child {
+  background-color: #e2970b;
+}
+
 .menu3 {
   height: 40px;
   background-color: black;
